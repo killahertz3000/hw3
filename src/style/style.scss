@@ -1,0 +1,40 @@
+h1 {
+    color: red;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+.gallery {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    &__item {
+        width: 32%;
+        height: 230px;
+        margin-bottom: 20px;
+        border: 1px solid #e6e6e6;
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        overflow: hidden;
+    }
+
+    &__desc {
+        padding: 5px 0;
+        text-align: center;
+    }
+}
